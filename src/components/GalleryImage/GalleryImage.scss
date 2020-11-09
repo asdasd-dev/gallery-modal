@@ -1,0 +1,13 @@
+.GalleryImage {
+    flex-basis: 500px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    img {
+        width: 100%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

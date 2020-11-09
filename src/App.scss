@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  margin: 15px 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    flex: 1;
+  }
+  
+  h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');

@@ -1,0 +1,27 @@
+.Comments {
+
+    min-width: 200px;
+    margin: 0 20px 40px;
+
+    .comment {
+
+        margin-bottom: 10px;
+
+        .comment-date {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #999999;
+    
+        }
+    
+        .comment-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.Modal {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal-content {
+        position: relative;
+        background: white;
+        border-radius: 2px;
+        z-index: 10;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+
+        &.mobile {
+            width: 100%;
+            min-height: 100%;
+        }
+    }
+
+    .close-modal {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.blackout {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    background-size: cover;
+    opacity: 0.5;
+}
